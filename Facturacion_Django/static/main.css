@@ -1,0 +1,41 @@
+header{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+/*estilos para la tabla*/
+table th {
+    background-color: #337ab7 !important;
+    color: white;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+
+.caja{
+    border: 1px solid; 
+    padding: 10px;
+    box-shadow: 10px 10px red;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+table.dataTable thead {
+    background:#1a237e;
+    color:white;
+}
+
+.columna{
+    /* border: 1px solid #333;  */
+    color: #333;
+    padding: 10px;
+    box-shadow: 10px 50px red;
+    margin: 10px;
+    border-radius: 5px;
+}
